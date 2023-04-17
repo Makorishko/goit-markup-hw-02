@@ -1,0 +1,100 @@
+:root {
+  --navy-blue: #2e2f42;
+  --white: #ffffff;
+  --iris: #4d5ae5;
+  --cloud: #f4f4fd;
+  --slate: #434455;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--navy-blue);
+}
+
+.header {
+}
+.nav {
+}
+.logo-header {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.logo-web {
+  color: #4d5ae5;
+}
+.nav-list {
+  list-style: none;
+}
+.nav-link {
+  font-size: 16px;
+}
+
+.list-contacts {
+  list-style: none;
+}
+.contacts-item {
+}
+.contacts-link{
+  font-size: 16px;
+  color: var(--slate);
+  font-style: normal;
+}
+.section {
+}
+.section-business {
+  background-color: var(--navy-blue);
+}
+.title {
+  color: var(--white);
+  font-size: 56px;
+}
+
+.btn {
+  background-color: var(--iris);
+  color: var(--white);
+  font-size: 16px;
+}
+
+.section-features {
+}
+.list-features {
+}
+.list-features-item {
+  list-style: none;
+}
+.features {
+  font-size: 20px;
+}
+.desc {
+  font-size: 16px;
+}
+.section-activity {
+}
+.subtitle {
+  font-size: 36px;
+}
+.list-image-item {
+  list-style: none;
+}
+.section-team {
+}
+.person {
+  font-size: 20px;
+}
+.specialization {
+  font-size: 16px;
+}
+.list-team-item {
+  list-style: none;
+}
+.footer {
+  background-color: var(--navy-blue);
+}
+.text {
+  color: var(--cloud);
+  font-size: 16px;
+}
+.logo-footer {
+  color: var(--cloud);
+  text-transform: uppercase;
+}
