@@ -1,9 +1,16 @@
 :root {
   --navy-blue: #2e2f42;
+  --ocean: #404bbf;
   --white: #ffffff;
   --iris: #4d5ae5;
   --cloud: #f4f4fd;
   --slate: #434455;
+  --green: #31d0aa;
+  --lightslate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --navy-blue-modal: #2e2f42;
+  --grey: #2e2f42;
+  --dairy: #fcfcfc;
 }
 
 body {
@@ -18,15 +25,25 @@ body {
 .logo-header {
   font-size: 18px;
   text-transform: uppercase;
+  font-weight: 800;
+  line-height: 1.16;
 }
 .logo-web {
   color: #4d5ae5;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
 }
 .nav-list {
   list-style: none;
 }
 .nav-link {
+  font-weight: 500;
+  line-height: 1.5;
   font-size: 16px;
+}
+.nav-link:focus {
+  color: #404bbf;
 }
 
 .list-contacts {
@@ -34,11 +51,18 @@ body {
 }
 .contacts-item {
 }
-.contacts-link{
+.contacts-link {
   font-size: 16px;
   color: var(--slate);
   font-style: normal;
 }
+.contacts-link:focus {
+  color: #404bbf;
+}
+.contacts-link:hover {
+  color: #404bbf;
+}
+
 .section {
 }
 .section-business {
@@ -47,12 +71,20 @@ body {
 .title {
   color: var(--white);
   font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
 }
 
 .btn {
   background-color: var(--iris);
   color: var(--white);
   font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #404bbf;
 }
 
 .section-features {
@@ -63,15 +95,20 @@ body {
   list-style: none;
 }
 .features {
+  font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
 }
 .desc {
   font-size: 16px;
+  line-height: 1.5;
 }
 .section-activity {
 }
 .subtitle {
+  font-weight: 700;
   font-size: 36px;
+  line-height: 1.11;
 }
 .list-image-item {
   list-style: none;
@@ -79,10 +116,13 @@ body {
 .section-team {
 }
 .person {
+  font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
 }
 .specialization {
   font-size: 16px;
+  line-height: 1.5;
 }
 .list-team-item {
   list-style: none;
@@ -93,8 +133,26 @@ body {
 .text {
   color: var(--cloud);
   font-size: 16px;
+  line-height: 1.5;
 }
 .logo-footer {
   color: var(--cloud);
   text-transform: uppercase;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+}
+.menu-list {
+  list-style: none;
+}
+.btn-filter {
+    background-color: var(--cornflower);
+    color: var(--iris);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    cursor: pointer;
+}
+.portfolio-list {
+  list-style: none;
 }
