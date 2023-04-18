@@ -45,6 +45,9 @@ body {
 .nav-link:focus {
   color: #404bbf;
 }
+.nav-link:hover {
+  color: #404bbf;
+}
 
 .list-contacts {
   list-style: none;
@@ -146,13 +149,36 @@ body {
   list-style: none;
 }
 .btn-filter {
-    background-color: var(--cornflower);
-    color: var(--iris);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    cursor: pointer;
+  background-color: var(--cornflower);
+  color: var(--iris);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  cursor: pointer;
 }
 .portfolio-list {
   list-style: none;
+}
+.btn-filter:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+.btn-filter:hover {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+.portfolio {
+}
+.portfolio-list {
+}
+.portfolio-list-item {
+}
+.name {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+}
+.category {
+font-size: 16px;
+line-height: 1.5;
 }
