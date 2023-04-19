@@ -139,6 +139,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color:var(--navy-blue);
 }
 .list-image-item {
   list-style: none;
@@ -151,6 +152,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color:var(--navy-blue)
 }
 .specialization {
   font-size: 16px;
@@ -158,7 +160,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--slate);
 }
-.list-team {
+.section .list {
   background-color: #ffffff;
 }
 .list-team-item {
@@ -224,10 +226,11 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--slate);
+  color:var(--navy-blue);
 }
 .category {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--slate);
 }
