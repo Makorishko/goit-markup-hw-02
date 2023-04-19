@@ -15,7 +15,8 @@
 
 body {
   font-family: Roboto, sans-serif;
-  color: var(--navy-blue);
+  color: var(--slate);
+  background-color: var(--white);
 }
 
 .header {
@@ -76,6 +77,8 @@ body {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .btn {
@@ -85,8 +88,13 @@ body {
   font-weight: 500;
   line-height: 1.5;
   cursor: pointer;
+  letter-spacing: 0.04em;
+  font-family: "Roboto", sans-serif;
 }
 .btn:hover {
+  background-color: #404bbf;
+}
+.btn:focus {
   background-color: #404bbf;
 }
 
@@ -101,10 +109,13 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .desc {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  color:var(--slate)
 }
 .section-activity {
 }
@@ -112,20 +123,30 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .list-image-item {
   list-style: none;
 }
 .section-team {
+    background-color: #F4F4FD;
 }
 .person {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .specialization {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  color:var(--slate);
+}
+.list-team{
+    background-color: #FFFFFF;
 }
 .list-team-item {
   list-style: none;
@@ -155,6 +176,9 @@ body {
   font-weight: 500;
   line-height: 1.5;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+  background-color:var(--cloud);
 }
 .portfolio-list {
   list-style: none;
@@ -171,14 +195,19 @@ body {
 }
 .portfolio-list {
 }
-.portfolio-list-item {
+.portfolio-link {
+
 }
 .name {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color:var(--navy-blue);
 }
 .category {
-font-size: 16px;
-line-height: 1.5;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  
 }
