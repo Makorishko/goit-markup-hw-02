@@ -141,8 +141,11 @@ body {
   text-transform: capitalize;
   color: var(--navy-blue);
 }
+.section-team{
+    background-color: #F4F4FD;
+}
 .list-team-item {
-  background-color: #f4f4fd;
+  background-color: #FFFFFF;
 }
 .person {
   font-weight: 500;
