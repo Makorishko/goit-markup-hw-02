@@ -187,7 +187,7 @@ body {
     line-height: 1.17;
     color:var(--cloud);
   }
-.menu-list {
+.list{
   list-style: none;
 }
 .btn-filter {
@@ -216,8 +216,9 @@ body {
 }
 .portfolio-list {
 }
-.portfolio-link {
 
+.link {
+    text-decoration: none;
 }
 .name {
   font-weight: 500;
