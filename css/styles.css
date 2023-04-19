@@ -28,16 +28,16 @@ body {
   text-transform: uppercase;
   font-weight: 800;
   line-height: 1.17;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   letter-spacing: 0.03em;
-  color:var(--iris);
+  color: var(--iris);
   text-decoration: none;
 }
 .logo-studio {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
-  color:var(--navy-blue);
+  color: var(--navy-blue);
 }
 .nav .list {
   list-style: none;
@@ -47,9 +47,8 @@ body {
   line-height: 1.5;
   font-size: 16px;
   letter-spacing: 0.02em;
-  color:var(--grey);
+  color: var(--grey);
   text-decoration: none;
-
 }
 .nav .link:focus {
   color: #404bbf;
@@ -57,10 +56,10 @@ body {
 .nav .link:hover {
   color: #404bbf;
 }
-.address{
-    font-style: normal;
+.address {
+  font-style: normal;
 }
-.address .list{
+.address .list {
   list-style: none;
   text-decoration: none;
   line-height: 1.5;
@@ -102,7 +101,7 @@ body {
   line-height: 1.5;
   cursor: pointer;
   letter-spacing: 0.04em;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .btn:hover {
   background-color: #404bbf;
@@ -113,7 +112,7 @@ body {
 
 .section-features {
 }
-.section-features .list{
+.section-features .list {
 }
 .list-features-item {
   list-style: none;
@@ -123,13 +122,13 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color:var(--navy-blue);
+  color: var(--navy-blue);
 }
 .desc {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color:var(--slate)
+  color: var(--slate);
 }
 .section-activity {
 }
@@ -145,7 +144,7 @@ body {
   list-style: none;
 }
 .section-team {
-    background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 .person {
   font-weight: 500;
@@ -157,10 +156,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color:var(--slate);
+  color: var(--slate);
 }
-.list-team{
-    background-color: #FFFFFF;
+.list-team {
+  background-color: #ffffff;
 }
 .list-team-item {
   list-style: none;
@@ -182,12 +181,12 @@ body {
   letter-spacing: 0.03em;
 }
 .logo-studio-footer {
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    color:var(--cloud);
-  }
-.list{
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--cloud);
+}
+.list {
   list-style: none;
 }
 .btn-filter {
@@ -197,9 +196,9 @@ body {
   font-weight: 500;
   line-height: 1.5;
   cursor: pointer;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 0.04em;
-  background-color:var(--cloud);
+  background-color: var(--cloud);
 }
 .portfolio-list {
   list-style: none;
@@ -218,18 +217,17 @@ body {
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 .name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color:var(--navy-blue);
+  color: var(--slate);
 }
 .category {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
 }
