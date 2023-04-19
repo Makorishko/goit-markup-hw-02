@@ -57,10 +57,14 @@ body {
 .nav .link:hover {
   color: #404bbf;
 }
-
+.address{
+    font-style: normal;
+}
 .address .list{
   list-style: none;
   text-decoration: none;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .contacts-item {
 }
@@ -109,7 +113,7 @@ body {
 
 .section-features {
 }
-.list-features {
+.section-features .list{
 }
 .list-features-item {
   list-style: none;
@@ -119,6 +123,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color:var(--navy-blue);
 }
 .desc {
   font-size: 16px;
